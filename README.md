@@ -1,7 +1,7 @@
 # gauss-krueger
 [![Build Status](https://travis-ci.org/juliuste/gauss-krueger.svg?branch=master)](https://travis-ci.org/juliuste/gauss-krueger)[![MIT License](https://img.shields.io/badge/license-MIT-black.svg)](https://opensource.org/licenses/MIT)
 
-*gauss-krueger* JavaScript module for converting GK4-coordinates into WGS84 latitide and longitude.
+JavaScript module for converting GK4-coordinates into WGS84 latitide and longitude.
 
 ## Usage
 
