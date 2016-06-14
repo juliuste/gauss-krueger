@@ -1,0 +1,27 @@
+{
+	"name": "gauss-krueger",
+	"description": "Convert GK4 coordinates to WGS84",
+	"version": "0.1.0",
+	"keywords": [
+		"coordinate",
+		"transformation",
+		"gk4",
+		"gauss",
+		"gauß",
+		"krueger",
+		"kruger",
+		"krüger",
+		"koordinaten",
+		"transformation",
+		"wgs84",
+		"potsdam",
+		"mercator",
+		"bessel"
+	],
+	"author": "Julius Tens <mail@juliustens.de>",
+	"contributors" : ["Helmut H. Heimeier <Helmut.Heimeier@t-online.de>"]
+	"homepage": "https://github.com/juliuste/gauss-krueger",
+	"repository": "juliuste/gauss-krueger"
+	"bugs": "https://github.com/juliuste/gauss-krueger/issues",
+	"license": "MIT"
+}
