@@ -1,7 +1,7 @@
 {
 	"name": "gauss-krueger",
-	"description": "Convert GK4 coordinates to WGS84",
-	"version": "0.1.0",
+	"description": "Convert GK4 coordinates to WGS84, and vice versa",
+	"version": "0.2.0",
 	"keywords": [
 		"coordinate",
 		"transformation",
@@ -29,5 +29,6 @@
 	"engine" : {
 		"node" : ">=4"
 	},
+	"files": ["index.js"],
 	"license": "MIT"
 }
