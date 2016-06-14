@@ -23,5 +23,9 @@
 	"homepage": "https://github.com/juliuste/gauss-krueger",
 	"repository": "juliuste/gauss-krueger",
 	"bugs": "https://github.com/juliuste/gauss-krueger/issues",
+	"scripts": {
+		"test":       "./test.js",
+		"prepublish": "npm test"
+	},
 	"license": "MIT"
 }
