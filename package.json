@@ -19,7 +19,7 @@
 		"bessel"
 	],
 	"author": "Julius Tens <mail@juliustens.de>",
-	"contributors" : ["Helmut H. Heimeier <Helmut.Heimeier@t-online.de>"]
+	"contributors" : ["Helmut H. Heimeier <Helmut.Heimeier@t-online.de>"],
 	"homepage": "https://github.com/juliuste/gauss-krueger",
 	"repository": "juliuste/gauss-krueger"
 	"bugs": "https://github.com/juliuste/gauss-krueger/issues",
