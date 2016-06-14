@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+'use strict'
+
 const assert = require('assert')
 const gk = require('./index.js')
 

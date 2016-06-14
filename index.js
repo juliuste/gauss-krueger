@@ -1,3 +1,5 @@
+'use strict'
+
 /*
 
 Copyright (c) 2006, HELMUT H. HEIMEIER
