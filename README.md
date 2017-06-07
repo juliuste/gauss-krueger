@@ -1,4 +1,6 @@
 # gauss-krueger
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/gauss-krueger.svg)](https://greenkeeper.io/)
 [![npm version](https://img.shields.io/npm/v/gauss-krueger.svg)](https://www.npmjs.com/package/gauss-krueger) [![Build Status](https://travis-ci.org/juliuste/gauss-krueger.svg?branch=master)](https://travis-ci.org/juliuste/gauss-krueger) [![MIT License](https://img.shields.io/badge/license-MIT-black.svg)](https://opensource.org/licenses/MIT)
 
 JavaScript module for converting GK4-coordinates into WGS84 latitide and longitude, and vice versa.
