@@ -1,7 +1,7 @@
 {
 	"name": "gauss-krueger",
 	"description": "Convert Gauß-Krüger coordinates (GK2, GK3, GK4, GK5) to WGS84, and vice versa",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"keywords": [
 		"coordinate",
 		"transformation",

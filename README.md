@@ -1,6 +1,6 @@
 # gauss-krueger
 
-JavaScript module for converting [*Gauß-Krüger*-coordinates](https://en.wikipedia.org/wiki/Gauss%E2%80%93Kr%C3%BCger_coordinate_system) into WGS84 latitide and longitude, and vice versa. Supported zones: **GK2**, **GK3**, **GK4**, **GK5**, based on the the **Bessel** ellipsoide and **Potsdam / Rauenberg** datum.
+JavaScript module for converting [*Gauß-Krüger*-coordinates](https://en.wikipedia.org/wiki/Gauss%E2%80%93Kr%C3%BCger_coordinate_system) into WGS84 latitide and longitude, and vice versa. Supported zones: **GK2** *(EPSG:31466)*, **GK3** *(EPSG:31467)*, **GK4** *(EPSG:31468)*, **GK5** *(EPSG:31469)*, based on the the **Bessel** ellipsoide and **Potsdam / Rauenberg** datum.
 
 [![npm version](https://img.shields.io/npm/v/gauss-krueger.svg)](https://www.npmjs.com/package/gauss-krueger)
 [![Build Status](https://travis-ci.org/juliuste/gauss-krueger.svg?branch=master)](https://travis-ci.org/juliuste/gauss-krueger)
