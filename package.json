@@ -1,11 +1,14 @@
 {
 	"name": "gauss-krueger",
-	"description": "Convert GK4 coordinates to WGS84, and vice versa",
-	"version": "0.2.0",
+	"description": "Convert Gauß-Krüger coordinates (GK2, GK3, GK4, GK5) to WGS84, and vice versa",
+	"version": "0.3.0",
 	"keywords": [
 		"coordinate",
 		"transformation",
+		"gk2",
+		"gk3",
 		"gk4",
+		"gk5",
 		"gauss",
 		"gauß",
 		"krueger",
@@ -19,16 +22,29 @@
 		"bessel"
 	],
 	"author": "Julius Tens <mail@juliustens.de>",
-	"contributors" : ["Helmut H. Heimeier <Helmut.Heimeier@t-online.de>"],
 	"homepage": "https://github.com/juliuste/gauss-krueger",
 	"repository": "juliuste/gauss-krueger",
 	"bugs": "https://github.com/juliuste/gauss-krueger/issues",
+	"main": "./index.js",
+	"files": [
+		"index.js"
+	],
+	"dependencies": {
+		"epsg": "^0.3.0",
+		"lodash.isnumber": "^3.0.3",
+		"lodash.isobject": "^3.0.2",
+		"proj4": "^2.4.4"
+	},
+	"devDependencies": {
+		"lodash.round": "^4.0.4",
+		"tape": "^4.8.0"
+	},
 	"scripts": {
-		"test": "./test.js"
+		"test": "node test.js",
+		"prepublish": "npm test"
 	},
-	"engine" : {
-		"node" : ">=4"
+	"engines": {
+		"node": ">=6"
 	},
-	"files": ["index.js"],
 	"license": "MIT"
 }
