@@ -1,6 +1,6 @@
 # gauss-krueger
 
-JavaScript module for converting *Gauß-Krüger*-coordinates into WGS84 latitide and longitude, and vice versa. Supported zones: **GK2**, **GK3**, **GK4**, **GK5**, based on the the **Bessel** ellipsoide and **Potsdam / Rauenberg** datum.
+JavaScript module for converting [*Gauß-Krüger*-coordinates](https://en.wikipedia.org/wiki/Gauss%E2%80%93Kr%C3%BCger_coordinate_system) into WGS84 latitide and longitude, and vice versa. Supported zones: **GK2**, **GK3**, **GK4**, **GK5**, based on the the **Bessel** ellipsoide and **Potsdam / Rauenberg** datum.
 
 [![npm version](https://img.shields.io/npm/v/gauss-krueger.svg)](https://www.npmjs.com/package/gauss-krueger)
 [![Build Status](https://travis-ci.org/juliuste/gauss-krueger.svg?branch=master)](https://travis-ci.org/juliuste/gauss-krueger)
@@ -18,8 +18,9 @@ let wgs84 = gk.toWGS({x: 4591270, y: 5819620}) // {longitude: 13.34255019849783,
 
 let gk = gk.toGK({longitude: 13.4, latitude: 52.5}) // {x: 4595175.488530577, y: 5819460.402152777}
 
-// the script guesses the GK zone based on the input coordinate longitude. You can also supply a zone directly via the zone parameter:
-let gk4 = gk.toGK({longitude: 13.4, latitude: 52.5}, 4) // {x: 5391482.283752493, y: 5819737.58836849}
+// The script guesses the GK zone based on the input coordinate longitude.
+// You can also supply a zone directly via the zone parameter:
+let gk5 = gk.toGK({longitude: 13.4, latitude: 52.5}, 5) // {x: 5391482.283752493, y: 5819737.58836849}
 ```
 
 ## Contributing
