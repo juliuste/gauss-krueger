@@ -4,6 +4,7 @@ JavaScript module for converting [*Gauß-Krüger*-coordinates](https://en.wikipe
 
 [![npm version](https://img.shields.io/npm/v/gauss-krueger.svg)](https://www.npmjs.com/package/gauss-krueger)
 [![Build Status](https://travis-ci.org/juliuste/gauss-krueger.svg?branch=master)](https://travis-ci.org/juliuste/gauss-krueger)
+[![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/gauss-krueger.svg)](https://greenkeeper.io/)
 [![dependency status](https://img.shields.io/david/juliuste/gauss-krueger.svg)](https://david-dm.org/juliuste/gauss-krueger)
 [![dev dependency status](https://img.shields.io/david/dev/juliuste/gauss-krueger.svg)](https://david-dm.org/juliuste/gauss-krueger#info=devDependencies)
 [![license](https://img.shields.io/github/license/juliuste/gauss-krueger.svg?style=flat)](LICENSE)
