@@ -30,7 +30,7 @@
 		"index.js"
 	],
 	"dependencies": {
-		"epsg": "^0.3.0",
+		"epsg": "^0.5.0",
 		"lodash.isnumber": "^3.0.3",
 		"lodash.isobject": "^3.0.2",
 		"proj4": "^2.4.4"
