@@ -37,7 +37,7 @@
 	},
 	"devDependencies": {
 		"lodash.round": "^4.0.4",
-		"tape": "^4.8.0"
+		"tape": "^4.13.0"
 	},
 	"scripts": {
 		"test": "node test.js",
