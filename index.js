@@ -20,7 +20,7 @@ const toWGS = (coordinates) => {
 
     const zone = +(coordinates.x+'')[0]
 
-    const projected = proj4(epsg[epsgFromZone(zone)], 'WGS84', Object.assign({}, coordinates))
+    const projected = proj4.default(epsg[epsgFromZone(zone)], 'WGS84', Object.assign({}, coordinates))
     return ({
         longitude: projected.x,
         latitude: projected.y
